@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white;
+}
+
+.fp-watermark {
+  display: none;
+}
